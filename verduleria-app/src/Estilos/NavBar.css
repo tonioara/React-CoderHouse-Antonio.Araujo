@@ -1,0 +1,56 @@
+.Navegador-Contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(108, 212, 3);
+  color: rgb(252, 252, 252);
+}
+.logo-nav{
+  width: 50px;
+  height: auto;
+}
+.contendor-navedagor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+.nav-links{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+
+}
+.ul-nav{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  list-style: none;
+  margin: 0;
+
+}
+.li-nav{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+
+}
+.link-nav{
+  text-decoration: none;
+  color:rgb(255,255,255);
+  font-weight: bold;
+  transition: color 0.3s ease;
+
+}
+.icono-carrito{
+  width: 32px;
+  height: auto;
+  transition: ease-in-out 0.3s;
+  margin: auto;
+}

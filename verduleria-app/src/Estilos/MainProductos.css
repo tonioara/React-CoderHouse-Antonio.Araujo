@@ -1,0 +1,127 @@
+
+.main-productos {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3rem 1.5rem; 
+  background-color: #97ddb4; 
+  text-align: center; 
+}
+
+.titulo-main {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #2E7D32; 
+  margin-bottom: 2.5rem; 
+  letter-spacing: -0.05em; 
+}
+.mensaje-bienvenida{
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  padding: 0.5em 1em; 
+  background-color: #E8F5E9; 
+  border-radius: 10px; 
+  display: inline-block; 
+  max-width: 80%; 
+}
+
+/* Estilos para la sección de FRUTAS */
+.frutas-productos {
+  background-color: #FFF3E0; 
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+  border: 1px solid #FFE0B2; 
+}
+
+.titulo-frutas {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #F57C00; 
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para la sección de VERDURAS */
+.verduras-productos {
+  background-color: #E8F5E9; 
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #C8E6C9; 
+}
+
+.titulo-verduras {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #388E3C; 
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para la sección de OTROS PRODUCTOS */
+.otros-productos {
+  background-color: #E3F2FD; 
+  padding: 2.5rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #BBDEFB; 
+}
+
+.titulo-otros {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1976D2; 
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .main-productos {
+    padding: 2rem 1rem;
+  }
+
+  .titulo-main {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .frutas-productos,
+  .verduras-productos,
+  .otros-productos {
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .titulo-frutas,
+  .titulo-verduras,
+  .titulo-otros {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-productos {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .titulo-main {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .frutas-productos,
+  .verduras-productos,
+  .otros-productos {
+    padding: 1.5rem 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .titulo-frutas,
+  .titulo-verduras,
+  .titulo-otros {
+    font-size: 1.6rem;
+  }
+}

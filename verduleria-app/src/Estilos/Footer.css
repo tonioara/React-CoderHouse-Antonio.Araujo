@@ -1,0 +1,96 @@
+.footer {
+  background-color:  #88da62; 
+  color: #E8F5E9;  
+  padding: 1.5rem 1.5rem; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 3rem; 
+}
+
+/* Sección de redes sociales */
+.footer-section.social {
+  margin-bottom: 2rem; 
+}
+
+.footer-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #F0F4C3; 
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; 
+  gap: 1.5rem; 
+  margin-top: 1rem;
+}
+
+.social-icon {
+  color: #E8F5E9; 
+  text-decoration: none;
+  border: 1px solid #C8E6C9; 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px); 
+}
+
+
+.social-icon.facebook:hover {
+  background-color: #3b5998; 
+  color: white;
+  border-color: #3b5998; 
+}
+
+.social-icon.instagram:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+  border: none; 
+}
+
+.social-icon.twitter:hover {
+  background-color: #00acee; 
+  color: white;
+  border-color: #00acee; 
+}
+
+
+.footer-bottom {
+  margin-top: 2rem; 
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(200, 230, 201, 0.2); 
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-title {
+    font-size: 1.4rem;
+  }
+
+  .social-links {
+    gap: 1rem; 
+  }
+
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
+}
